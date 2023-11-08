@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizza Cheff</title>
+    <link rel="import" href="html/header.html">
+</head>
+<body>
+<header class="header">
+    <div class="header__content">
+        <div class="header__logo__container">
+            <div class="header__logo"></div>
+            <div class="header__text">pizza <br> cheff</div>
+        </div>
+        <nav class="header__nav">
+            <a class="nav__item" href="/pizza">Пиццы</a>
+            <a class="nav__item" href="/beverages">Напитки</a>
+            <a class="nav__item" href="/shipping-and-payment">Доставка и оплата</a>
+            <a class="nav__item" href="/contact">Контакты</a>
+        </nav>
+    </div>
+</header>
+<section class="main container">
+    <div class="main__content">
+        <div class="main__title__container">
+            <h1 class="h1">
+                Самая вкусная пицца в мире
+                <span>только в Pizza Сheff</span>
+            </h1>
+        </div>
+        <div class="main__items__container">
+            <div class="main__item">
+                <img src="./assets/img/icon/hop.png" width="60" height="60" alt="hop">
+                <div class="item__container">
+                    <div class="item__title">лучшее тесто</div>
+                    <div class="item__desc">Мы создаем тесто только из
+                        отборной итальянской муки
+                        наивысшего качества
+                    </div>
+                </div>
+            </div>
+            <div class="main__item">
+                <img src="./assets/img/icon/kitchenPack.png" width="60" height="60" alt="hop">
+                <div class="item__container">
+                    <div class="item__title">лучшие повара</div>
+                    <div class="item__desc">Пиццы готовят самые
+                        профессиональные
+                        итальянские повара
+                    </div>
+                </div>
+            </div>
+            <div class="main__item">
+                <img src="./assets/img/icon/quality.png" width="60" height="60" alt="hop">
+                <div class="item__container">
+                    <div class="item__title">гарантия качества</div>
+                    <div class="item__desc">Наша пиццерия получила
+                        множество наград и
+                        признаний по всему миру
+                    </div>
+                </div>
+            </div>
+            <div class="main__item">
+                <img src="./assets/img/icon/recipes.png" width="60" height="60" alt="hop">
+                <div class="item__container">
+                    <div class="item__title">отборные рецепты</div>
+                    <div class="item__desc">Мы используем рецепты
+                        от мировых лидеров
+                        в изготовлении пиццы
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button_container">
+            <button class="button">Выбрать пиццу</button>
+        </div>
+
+    </div>
+    <div class="main__img"></div>
+</section>
+<section class="pizza container">
+    <div class="pizza__titleContainer">
+        <h2 class="h2">Выберите свою любимую пиццу</h2>
+    </div>
+    <div class="cards__container">
+        <div class="card__container">
+            <a href="#meatDeluxe">
+                <img width="214" height="152" src="./assets/img/pizza/meatDeluxe.png" alt="meatDeluxe">
+            </a>
+            <div id="meatDeluxe" class="popup">
+                <a href="#" class="close">X</a>
+                <img class="full-img" src="./assets/img/pizza/meatDeluxe.png" alt="meatDeluxe">
+            </div>
+
+            <h3 class="card__title">Мясная Делюкс</h3>
+            <p class="card__desc">Пепперони, лук, бекон, томатная паста, колбаски, перец, грибы, соус чили, ананасы</p>
+            <button class="button button__card">В корзину</button>
+        </div>
+        <div class="card__container">
+
+            <a href="#marinePremium">
+                <img width="214" height="152" src="./assets/img/pizza/marinePremium.png" alt="marinePremium">
+            </a>
+            <div id="marinePremium" class="popup">
+                <a href="#" class="close">X</a>
+                <img class="full-img" src="./assets/img/pizza/marinePremium.png" alt="marinePremium">
+            </div>
+
+            <h3 class="card__title">Морская Премиум</h3>
+            <p class="card__desc">Перец, сыр, креветки, кальмары, мидии, лосось</p>
+            <button class="button button__card">В корзину</button>
+        </div>
+        <div class="card__container">
+
+            <a href="#baconSausages">
+                <img src="./assets/img/pizza/baconSausages.png" alt="baconSausages">
+            </a>
+            <div id="baconSausages" class="popup">
+                <a href="#" class="close">X</a>
+                <img class="full-img" src="./assets/img/pizza/baconSausages.png" alt="baconSausages">
+            </div>
+
+            <h3 class="card__title">Бекон и Сосиски</h3>
+            <p class="card__desc">Бекон, сыр, сосиски, ананас, томатная паста</p>
+            <button class="button button__card">В корзину</button>
+        </div>
+        <div class="card__container">
+
+            <a href="#chickenDeluxe">
+                <img src="./assets/img/pizza/chickenDeluxe.png" alt="chickenDeluxe">
+            </a>
+            <div id="chickenDeluxe" class="popup">
+                <a href="#" class="close">X</a>
+                <img class="full-img" src="./assets/img/pizza/chickenDeluxe.png" alt="chickenDeluxe">
+            </div>
+
+            <h3 class="card__title">Куриная Делюкс</h3>
+            <p class="card__desc">Курица, ананас, сыр Пепперони, соус для пиццы, томатная паста</p>
+            <button class="button button__card">В корзину</button>
+        </div>
+        <div class="card__container">
+
+            <a href="#barbecuePremium">
+                <img src="./assets/img/pizza/barbecuePremium.png" alt="barbecuePremium">
+            </a>
+            <div id="barbecuePremium" class="popup">
+                <a href="#" class="close">X</a>
+                <img class="full-img" src="./assets/img/pizza/barbecuePremium.png" alt="barbecuePremium">
+            </div>
+
+
+            <h3 class="card__title">Барбекю Премиум</h3>
+            <p class="card__desc">Свинина BBQ, соус Барбкею, сыр, курица, соус для пиццы, соус чили</p>
+            <button class="button button__card">В корзину</button>
+        </div>
+        <div class="card__container">
+
+            <a href="#pepperoniDouble">
+                <img src="./assets/img/pizza/pepperoniDouble.png" alt="pepperoniDouble">
+            </a>
+            <div id="pepperoniDouble" class="popup">
+                <a href="#" class="close">X</a>
+                <img class="full-img" src="./assets/img/pizza/pepperoniDouble.png" alt="pepperoniDouble">
+            </div>
+
+
+            <h3 class="card__title">Пепперони Дабл</h3>
+            <p class="card__desc">Пепперони, сыр, колбаса 2 видов: обжаренная и вареная</p>
+            <button class="button button__card">В корзину</button>
+        </div>
+        <div class="card__container">
+
+            <a href="#chickenTrio">
+                <img src="./assets/img/pizza/chickenTrio.png" alt="chickenTrio">
+            </a>
+            <div id="chickenTrio" class="popup">
+                <a href="#" class="close">X</a>
+                <img class="full-img" src="./assets/img/pizza/chickenTrio.png" alt="chickenTrio">
+            </div>
+
+
+            <h3 class="card__title">Куриное трио</h3>
+            <p class="card__desc">Жареная курица, Тушеная курица, Куриные наггетсы, перец, сыр, грибы, соус для
+                пиццы</p>
+            <button class="button button__card">В корзину</button>
+        </div>
+        <div class="card__container">
+            <div>
+
+                <a href="#hearty">
+                    <img src="./assets/img/pizza/hearty.png" alt="hearty">
+                </a>
+                <div id="hearty" class="popup">
+                    <a href="#" class="close">X</a>
+                    <img class="full-img" src="./assets/img/pizza/hearty.png" alt="hearty">
+                </div>
+
+                <h3 class="card__title">Сырная</h3>
+                <p class="card__desc">Сыр Джюгас, Сыр с плесенью, Сыр Моцарелла, Сыр секретный</p>
+            </div>
+            <button class="button button__card">В корзину</button>
+        </div>
+
+    </div>
+</section>
+<section class="formOrder container">
+    <div class="formOrder__container">
+        <div class="formOrder__desc">
+            <h2 class="h2 h2__formOrder"><span>Хватит думать!</span> <br> Доставим заказ за 30 <br> минут!</h2>
+            <p class="formOrder__desc__content">Мы гарантированно доставим вашу пиццу за 30 минут с момента оформления
+                заказа. Если мы опоздаем даже на 1 минуту - вы получаете весь заказ бесплатно и ваучер на скидку на
+                следующий заказ. Мы гордимся нашим сервисом и сделаем всё, чтобы наш клиент был доволен и не остался
+                голодный!</p>
+        </div>
+        <form class="formOrder__form" id="form">
+            <input
+                    class="input"
+                    maxlength="16"
+                    required
+                    type="text"
+                    name="name" id="name"
+                    placeholder="Ваше имя"
+            />
+            <input
+                    class="input"
+                    maxlength="30"
+                    required
+                    type="text"
+                    name="address"
+                    id="address"
+                    placeholder="Адрес доставки"
+            />
+            <input
+                    class="input"
+                    type="number"
+                    required
+                    name="phone"
+                    id="phone"
+                    placeholder="Телефон"
+            />
+            <button class="button" type="submit">Оформить заказ</button>
+        </form>
+    </div>
+    <div class="formOrder__img"></div>
+
+</section>
+
+
+<div class="modal">
+    <h2>Спасибо за заказ</h2>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+@import "fonts.css";
+@import "null.css";
+@import "header.css";
+@import "main.css";
+@import "pizza.css";
+@import "formOrder.css";
+@import "modal.css";
+@import "popup.css";
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Muller,'sans-serif';
+    color: #b99150;
+    position: relative;
+}
