@@ -6,6 +6,7 @@
 @import "formOrder.css";
 @import "modal.css";
 @import "popup.css";
+@import "animate.css";
 
 body {
     font-size: 14px;
